@@ -1,0 +1,246 @@
+body {
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+/*HEADER*/
+
+.header {
+    background-color: #5BB289;
+    padding: 25px;
+}
+
+.headerLogo {
+    height: 40px;
+    padding-left: 25px;
+    }
+
+/*PRODUCT SECTION*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.main {
+    /* border: 1px solid #C8C8C8; */
+    width: 800px;
+    height: 100%;
+    margin: 20px;
+    padding: 40px;
+}
+
+.listItems {
+    padding-top: 20px;
+
+}
+
+.product-title {
+    font-size: 35px;
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding-bottom: 30px;
+    border-bottom: solid 2px #C8C8C8;
+}
+
+/*ITEMS*/
+
+/*
+<div class="item">
+<div class="item-description">
+    <img class="item-img" src=".\rss\img\item1.jpeg">
+    <p class="item-name">Pera Conferencia</p>
+</div>
+    <div class="item-description">
+    <p class="item-price">0.34€</p>
+    <button class="item-add">Añadir al carrito</button>
+    </div>
+</div>
+*/
+
+.item {
+    border: solid 1px #C8C8C8;
+    width: 230px;
+    height: 340px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.item-img {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.item-name {
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 15px;
+    margin: 0 0 5px 0;
+}
+
+.item-price {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+    padding-left: 15px;
+}
+
+.item-add {
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    width: 200px;
+    height: 40px;
+    background-color: #F9B42A;
+    color: #714000;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+.item-add:hover {
+    cursor: pointer;
+    background-color: #00a167;
+    color: #F7F8F6;
+}
+/* CART */
+
+.cart {
+    border-left: 2px solid #C8C8C8;
+    width: 300px;
+    height: 1150px;
+    padding: 40px;
+    margin: 20px 20px 10px 20px;
+    display: inline-block;
+}
+
+.cart-Title {
+    font-size: 35px;
+    font-family: Helvetica, sans-serif;
+    margin: 0 0 25px 0;
+    padding: 15px 0;
+    border-bottom: solid 2px #C8C8C8;
+}
+
+.cart-no-products {
+    padding: 30px;
+    display: none;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.no-products-text {
+    color: #C8C8C8;
+    font-size: 18px;
+    font: weight 500px;
+    text-align: center;
+}
+
+/*Cart WITH items*/
+
+.cart-Item {
+    justify-content: end;
+    width: 300px;
+}
+
+.cart-CartSectionTop {
+    height: 130px;
+}
+
+.cart-CartSectionBot {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.cart-ItemImg {
+    height: 60px;
+    margin: auto;
+}
+
+.cart-ItemName {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+}
+
+.cart-ItemPrice {
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: solid 1px #C8C8C8;
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+}
+
+
+.cart-ItemQuantity {
+    font-size: 20px;
+    font-weight: bold;
+    color: #951d14;
+    margin: 0;
+}
+
+.cartBtn {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    color: #951d14;
+    background-color: #eaaba7;
+    border: none;
+    margin: 0;
+}
+
+.cart-TotalPrice {
+    padding: 15px;
+    background-color: #F9B42A;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;   
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: #F7F8F6;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin-left: 200px;
+    padding: 40px 0;
+}
+
+.footer-links {
+    display: flex;
+    margin-top: 20px;
+}
+
+.footer-link {
+   color:#C8C8C8;
+   text-decoration: none;
+   font-size: 14px;
+   font-weight: 100;
+   display: block;
+   margin-bottom: 15px;
+}
+.footer-link:hover {
+color: #aeaeae;
+}
+
+.footer-link-col {
+    margin-right: 100px;
+}
+
+.footerlogo {
+    height: 35px;
+    margin-right: 100px;
+}
