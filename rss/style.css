@@ -198,6 +198,12 @@ body {
     margin: 0;
 }
 
+.cartBtn:hover {
+    background-color: #951d14;
+    color: #eaaba7;
+    cursor: pointer;
+}
+
 .cart-TotalPrice {
     padding: 15px;
     background-color: #F9B42A;
